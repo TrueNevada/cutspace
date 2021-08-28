@@ -1,0 +1,16 @@
+.header__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.header__title {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 38px;
+  line-height: 40px;
+}

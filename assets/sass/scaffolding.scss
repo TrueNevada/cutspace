@@ -1,0 +1,39 @@
+a {
+  text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  padding: 0;
+  margin: 0;
+
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+
+  background-color: #ffffff;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  min-width: 320px;
+  max-width: 1200px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
